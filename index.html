@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/1c0e6bcdfb.js" crossorigin="anonymous"></script>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>
+
+  <title>Web Assignment-1</title>
+
+</head>
+
+<body class="body">
+
+
+  <div class="site-navbar mb-4">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <!-- logo -->
+      <a class="navbar-bran " href="#">
+        <img class="brand-image" src="Assets/logo-header-2020.svg" alt="Logo"></a>
+
+      <div class="dropdown ml-4">
+        <button class="btn dropdown1 bg-transparent text-success font-weight-bold  dropdown-toggle" type="button"
+          id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Browse
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <div class="row">
+            <div class="column">
+
+              <a class="dropdown-item font-weight-bold">Create</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Animations</a>
+              <a class="dropdown-item" href="#">Creative Writting</a>
+              <a class="dropdown-item" href="#">Film and Video</a>
+              <a class="dropdown-item" href="#">Fine Art</a>
+              <a class="dropdown-item" href="#">Graphic design</a>
+              <a class="dropdown-item" href="#">Ilusion</a>
+              <a class="dropdown-item" href="#">Music</a>
+              <a class="dropdown-item" href="#">Photograpgy</a>
+              <a class="dropdown-item" href="#">UI/UX Design</a>
+              <a class="dropdown-item" href="#">Web Development</a>
+            </div>
+            <div class="column">
+
+              <a class="dropdown-item font-weight-bold">Create</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Animations</a>
+              <a class="dropdown-item" href="#">Creative Writting</a>
+              <a class="dropdown-item" href="#">Film and Video</a>
+              <a class="dropdown-item" href="#">Fine Art</a>
+              <a class="dropdown-item" href="#">Graphic design</a>
+              <a class="dropdown-item" href="#">Ilusion</a>
+              <a class="dropdown-item" href="#">Music</a>
+              <a class="dropdown-item" href="#">Photograpgy</a>
+              <a class="dropdown-item" href="#">UI/UX Design</a>
+              <a class="dropdown-item" href="#">Web Development</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group has-search mb-0 ml-4">
+        <span class="fa fa-search form-control-feedback"></span>
+        <input type="text" class="form-control bg-transparent text-white"
+          placeholder="What do you want to learn today?">
+      </div>
+      <!-- Button -->
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse " id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link font-weight-bold" href="#home">Chroma courses <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item font-weight-bold ml-2 active">
+            <a class="nav-link" href="#home">Sign in</a>
+          </li>
+          <button class="btn mr-4 btn-success">
+            Sign Up
+          </button>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="mobile-navbar mb-4">
+    <nav class="navbar navbar-dark fixed-top">
+
+      <button class="navbar-toggler mr-auto border-0" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive">
+        <i class="fa-solid fa-bars"></i>
+        <span class="btn bg-transparent fa fa-search " style="color: white;">
+        </span>
+      </button>
+
+
+      <a class="navbar-brand" href="#">
+        <img class="brand-image" src="/Assets/logo-header-2020.svg" alt="Logo-of">
+      </a>
+
+      <button class="btn btn-success ml-auto">
+        Sign in
+      </button>
+
+      <div class="collapse navbar-collapse " id="navbarResponsive">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link " href="#home">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Browse</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Student Progress</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Chroma Courses</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
+  <div class="free-space" style="margin-top: 110px;">
+  </div>
+
+
+  <div class="container margin-top mb-4">
+    <div class="grid">
+      <div class="row">
+        <div class="col-md-3">
+          <nav>
+            <ul>
+              <div class="sidebar">
+                <a class="active" style="text-decoration: none;" href="#home">All Classes</a>
+                <h5 class="font-weight-bold">create</h5>
+                <a href="#Animation">Animation</a>
+                <a href="#creative writing">Creative Writing</a>
+                <a href="#Film & Video">Film & video </a>
+                <a href="#Fine Arts">Fine Arts </a>
+                <a href="#Graphic Designning">Graphic Designning</a>
+                <a href="#Illustration">Illustration</a>
+                <a href="#Music">Music</a>
+                <a href="#Photography">Photography</a>
+                <a href="#UX/UIDesign">UX/UIDesign</a>
+                <a href="#Web Development">Web Development</a>
+                <h5 class="font-weight-bold">Build</b></h5>
+                <a href="#Bussiness Analytics">Bussiness Analytics</a>
+                <a href="#Freelance&Entreprenureship">Freelance&Entreprenureship</a>
+                <a href="#Leadership&Managment">Leadership&Managment </a>
+                <a href="#Marketting">Marketting</a>
+                <h5 class="font-weight-bold">Thrive</b></h5>
+                <a href="#LifeStyle">LifeStyle</a>
+                <a href="#Productivity">Productivity</a>
+              </div>
+            </ul>
+
+            <select class="container mt-4 sidebar-style">
+              <div class="container-fluid mt-4">
+                <option value="" selected="selected">All Online Classes</option>
+
+                <option><a href="#Animation">Animation</a></option>
+                <option><a href="#creative writing">Creative Writing</a></option>
+                <option><a href="#Film & Video">Film & video </a></option>
+                <option><a href="#Fine Arts">Fine Arts </a></option>
+                <option><a href="#Graphic Designning">Graphic Designning</a></option>
+                <option><a href="#Illustration">Illustration</a></option>
+                <option><a href="#Music">Music</a></option>
+                <option><a href="#Photography">Photography</a></option>
+                <option><a href="#UX/UIDesign">UX/UIDesign</a>
+                <option><a href="#Web Development">Web Development</a></option>
+                <option><a href="#Bussiness Analytics">Bussiness Analytics</a></option>
+                <option><a href="#Freelance&Entreprenureship">Freelance&Entreprenureship</a></option>
+                <option><a href="#Leadership&Managment">Leadership&Managment </a></option>
+                <option><a href="#Marketting">Marketting</a></option>
+                <option><a href="#LifeStyle">LifeStyle</a></option>
+                <option><a href="#Productivity">Productivity</a></option>
+              </div>
+            </select>
+          </nav>
+        </div>
+        <div class="col-md-9 col-sm-12 px-4">
+          <div class="responsive-class" style="width: 96%; margin-left: 2%;">
+            <div class="row mb-4 banner-card ">
+              <div class="mask border-radius rgba-green-light col-12">
+                <div class="card bg-transparent border-0">
+                  <div class="card-body">
+                    <div class="card-title white-text">
+                      <h1 class="font-weight-bold ">Online Classes</h1>
+                    </div>
+                    <div class="card-text white-text">
+                      <p>Find what fascinate you as you explore these online classes.</p>
+                    </div>
+                    <div class="mt-4 mb-4">
+                      <button class="btn bg-success rounded font-weight-bold">
+                        Get Started for Free
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="spacing mt-4"></div>
+
+            <div class="row margin-top ">
+              <div class="col-sm-6 px-0">
+                <div id="left-border" class="banner-video-image">
+                  <div id="left-border" class="mask mt-4 mt-sm-0">
+                    <div class="d-flex">
+                      <h1 class="text-white mb-0">Original</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 px-0">
+                <div id="right-border bottom-left" class="card banner-video bg-transparent">
+                  <div class="card-body" style="overflow: hidden;">
+                    <h3 class="card-title font-weight-bold" style="height: 30%; overflow: hidden;">Plates at home:Uplift
+                      your Spirit & Your Space</h3>
+                    <div class="card-text">
+                      <form class="form-inline" style="height: 40%; overflow: hidden;">
+                        <div class="user-image-medium m-0 mr-3">
+                          <img class="user-image-medium mr-4" style="width: 100%; height: 100%;"
+                            src="./Assets/user-image-medium.jpg"></a>
+                        </div>
+                        <div>
+                          <h3 class="m-0" type="text">Christopher Griphen</h3>
+                          <p class="m-0">@plantkveen</p>
+                          <p class="m-0">20,2030 Student</p>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="form-inline mt-4 mb-0">
+                      <div class="card-footer-title">
+                        <h7 class="card-title">30m</h7>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row feature-header mt-4">
+              <h3 class="font-weight-bold mt-4">Feature classes</h3>
+            </div>
+
+            <div class="row featured-class">
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="border-radius">
+                    <div id="rcorner1" class="card mt-4 border-bottom-radius">
+                      <img src="/Assets/original.webp" height="176" alt="Card image cap">
+                      <div class="card-body border-bottom-radius">
+                        <div class="form-inline">
+                          <div class="total-students">
+                            <h7 class="card-title">6700 students</h7>
+                          </div>
+                          <div class="total-minutes ml-auto">
+                            <h7 class="card-title align-text-right">28min</h7>
+                          </div>
+                        </div>
+                        <p class="card-text font-weight-bold">Plates at home:Uplift your Spirit & Your Space</p>
+                        <div class="form-inline mb-0">
+                          <div class="card-footer-title">
+                            <h7 class="card-title">Umair Ali</h7>
+                          </div>
+                          <div class="save-icon ml-auto">
+                            <i class='bi bi-bookmark'></i>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-sm-4">
+                  <div id="rcorner1" class="card mt-4 border-radius">
+                    <img height="176" src="/Assets/original-1.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <div class="form-inline">
+                        <div class="total-students">
+                          <h7 class="card-title">6700 students</h7>
+                        </div>
+                        <div class="total-minutes ml-auto">
+                          <h7 class="card-title align-text-right">28min</h7>
+                        </div>
+                      </div>
+                      <p class="card-text font-weight-bold">Plates at home:Uplift your Spirit & Your Space</p>
+                      <div class="form-inline mb-0">
+                        <div class="card-footer-title">
+                          <h7 class="card-title">Umair Ali</h7>
+                        </div>
+                        <div class="save-icon ml-auto">
+                          <i class='bi bi-bookmark'></i>
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div id="rcorner1" class="card mt-4 border-radius">
+                    <img height="176" src="/Assets/original-2.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <div class="form-inline">
+                        <div class="total-students">
+                          <h7 class="card-title">6700 students</h7>
+                        </div>
+                        <div class="total-minutes ml-auto">
+                          <h7 class="card-title align-text-right">28min</h7>
+                        </div>
+                      </div>
+                      <p class="card-text font-weight-bold">Plates at home:Uplift your Spirit & Your Space</p>
+                      <div class="form-inline mb-0">
+                        <div class="card-footer-title">
+                          <h7 class="card-title">Umair Ali</h7>
+                        </div>
+                        <div class="save-icon ml-auto">
+                          <i class='bi bi-bookmark'></i>
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class=" popular-class-header mt-4">
+              <div class="row form-inline">
+                <div class="bold">
+                  <h3 class="font-weight-bold">Polular Classes</h3>
+                </div>
+                <div class="btn btn-sm btn-outline-dark ml-auto">
+                  view all
+                </div>
+              </div>
+            </div>
+
+            <div class="popular-classes">
+              <div class="row popular-class-cards">
+                <div class="row  ">
+                  <div class="col-sm-4 mt-4">
+                    <div id="rcorner1" class="card">
+                      <img height="176" src="/Assets/popular.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <div class="form-inline">
+                          <div class="total-students">
+                            <h7 class="card-title">6700 students</h7>
+                          </div>
+                          <div class="total-minutes ml-auto">
+                            <h7 class="card-title align-text-right">28min</h7>
+                          </div>
+                        </div>
+                        <p class="card-text font-weight-bold">Plates at home:Uplift your Spirit & Your Space</p>
+                        <div class="form-inline mb-0">
+                          <div class="card-footer-title">
+                            <h7 class="card-title">Umair Ali</h7>
+                          </div>
+                          <div class="save-icon ml-auto">
+                            <i class='bi bi-bookmark'></i>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 mt-4">
+                    <div id="rcorner1" class="card">
+                      <img height="176" src="/Assets/Popular-2.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <div class="form-inline">
+                          <div class="total-students">
+                            <h7 class="card-title">6700 students</h7>
+                          </div>
+                          <div class="total-minutes ml-auto">
+                            <h7 class="card-title align-text-right">28min</h7>
+                          </div>
+                        </div>
+                        <p class="card-text font-weight-bold">Plates at home:Uplift your Spirit & Your Space</p>
+                        <div class="form-inline mb-0">
+                          <div class="card-footer-title">
+                            <h7 class="card-title">Umair Ali</h7>
+                          </div>
+                          <div class="save-icon ml-auto">
+                            <i class='bi bi-bookmark'></i>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 mt-4">
+                    <div id="rcorner1" class="card">
+                      <img height="176" src="/Assets/Popular-3.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <div class="form-inline">
+                          <div class="total-students">
+                            <h7 class="card-title">6700 students</h7>
+                          </div>
+                          <div class="total-minutes ml-auto">
+                            <h7 class="card-title align-text-right">28min</h7>
+                          </div>
+                        </div>
+                        <p class="card-text font-weight-bold">Plates at home:Uplift your Spirit & Your Space</p>
+                        <div class="form-inline mb-0">
+                          <div class="card-footer-title">
+                            <h7 class="card-title">Umair Ali</h7>
+                          </div>
+                          <div class="save-icon ml-auto">
+                            <i class='bi bi-bookmark'></i>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-4 mt-4">
+                    <div id="rcorner1" class="card">
+                      <img height="176" src="/Assets/Popular-4.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <div class="form-inline">
+                          <div class="total-students">
+                            <h7 class="card-title">6700 students</h7>
+                          </div>
+                          <div class="total-minutes ml-auto">
+                            <h7 class="card-title align-text-right">28min</h7>
+                          </div>
+                        </div>
+                        <p class="card-text font-weight-bold">Plates at home:Uplift your Spirit & Your Space</p>
+                        <div class="form-inline mb-0">
+                          <div class="card-footer-title">
+                            <h7 class="card-title">Umair Ali</h7>
+                          </div>
+                          <div class="save-icon ml-auto">
+                            <i class='bi bi-bookmark'></i>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 mt-4">
+                    <div id="rcorner1" class="card">
+                      <img height="176" src="/Assets/Popular-5.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <div class="form-inline">
+                          <div class="total-students">
+                            <h7 class="card-title">6700 students</h7>
+                          </div>
+                          <div class="total-minutes ml-auto">
+                            <h7 class="card-title align-text-right">28min</h7>
+                          </div>
+                        </div>
+                        <p class="card-text font-weight-bold">Plates at home:Uplift your Spirit & Your Space</p>
+                        <div class="form-inline mb-0">
+                          <div class="card-footer-title">
+                            <h7 class="card-title">Umair Ali</h7>
+                          </div>
+                          <div class="save-icon ml-auto">
+                            <i class='bi bi-bookmark'></i>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 mt-4">
+                    <div id="rcorner1" class="card">
+                      <img height="176" src="/Assets/Popular-6.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <div class="form-inline">
+                          <div class="total-students">
+                            <h7 class="card-title">6700 students</h7>
+                          </div>
+                          <div class="total-minutes ml-auto">
+                            <h7 class="card-title align-text-right">28min</h7>
+                          </div>
+                        </div>
+                        <p class="card-text font-weight-bold">Plates at home:Uplift your Spirit & Your Space</p>
+                        <div class="form-inline mb-0">
+                          <div class="card-footer-title">
+                            <h7 class="card-title">Umair Ali</h7>
+                          </div>
+                          <div class="save-icon ml-auto">
+                            <i class='bi bi-bookmark'></i>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="trending-class-header mt-4">
+              <div class="row form-inline">
+                <div class="font-weight-bold">
+                  <h3 class="font-weight-bold">Trending Classes</h3>
+                </div>
+                <div class="btn btn-sm btn-outline-dark ml-auto">
+                  view all
+                </div>
+              </div>
+            </div>
+
+            <div class="trending-classes">
+              <div class="row trendig-class-cards">
+                <div class="row ">
+                  <div class="col-sm-4 mt-4">
+                    <div id="rcorner1" class="card">
+                      <img height="176" src="/Assets/Trending-1.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <div class="form-inline">
+                          <div class="total-students">
+                            <h7 class="card-title">6700 students</h7>
+                          </div>
+                          <div class="total-minutes ml-auto">
+                            <h7 class="card-title align-text-right">28min</h7>
+                          </div>
+                        </div>
+                        <p class="card-text font-weight-bold">Plates at home:Uplift your Spirit & Your Space</p>
+                        <div class="form-inline mb-0">
+                          <div class="card-footer-title">
+                            <h7 class="card-title">Umair Ali</h7>
+                          </div>
+                          <div class="save-icon ml-auto">
+                            <i class='bi bi-bookmark'></i>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 mt-4">
+                    <div id="rcorner1" class="card">
+                      <img height="176" src="/Assets/Trending-2.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <div class="form-inline">
+                          <div class="total-students">
+                            <h7 class="card-title">6700 students</h7>
+                          </div>
+                          <div class="total-minutes ml-auto">
+                            <h7 class="card-title align-text-right">28min</h7>
+                          </div>
+                        </div>
+                        <p class="card-text font-weight-bold">Plates at home:Uplift your Spirit & Your Space</p>
+                        <div class="form-inline mb-0">
+                          <div class="card-footer-title">
+                            <h7 class="card-title">Umair Ali</h7>
+                          </div>
+                          <div class="save-icon ml-auto">
+                            <i class='bi bi-bookmark'></i>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 mt-4">
+                    <div id="rcorner1" class="card">
+                      <img height="176" src="/Assets/Trending-3.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <div class="form-inline">
+                          <div class="total-students">
+                            <h7 class="card-title">6700 students</h7>
+                          </div>
+                          <div class="total-minutes ml-auto">
+                            <h7 class="card-title align-text-right">28min</h7>
+                          </div>
+                        </div>
+                        <p class="card-text font-weight-bold">Plates at home:Uplift your Spirit & Your Space</p>
+                        <div class="form-inline mb-0">
+                          <div class="card-footer-title">
+                            <h7 class="card-title">Umair Ali</h7>
+                          </div>
+                          <div class="save-icon ml-auto">
+                            <i class='bi bi-bookmark'></i>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 mt-4">
+                    <div id="rcorner1" class="card">
+                      <img height="176" src="/Assets/Trending-4.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <div class="form-inline">
+                          <div class="total-students">
+                            <h7 class="card-title">6700 students</h7>
+                          </div>
+                          <div class="total-minutes ml-auto">
+                            <h7 class="card-title align-text-right">28min</h7>
+                          </div>
+                        </div>
+                        <p class="card-text font-weight-bold">Plates at home:Uplift your Spirit & Your Space</p>
+                        <div class="form-inline mb-0">
+                          <div class="card-footer-title">
+                            <h7 class="card-title">Umair Ali</h7>
+                          </div>
+                          <div class="save-icon ml-auto">
+                            <i class='bi bi-bookmark'></i>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 mt-4">
+                    <div id="rcorner1" class="card">
+                      <img height="176" src="/Assets/Trending-5.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <div class="form-inline">
+                          <div class="total-students">
+                            <h7 class="card-title">6700 students</h7>
+                          </div>
+                          <div class="total-minutes ml-auto">
+                            <h7 class="card-title align-text-right">28min</h7>
+                          </div>
+                        </div>
+                        <p class="card-text font-weight-bold">Plates at home:Uplift your Spirit & Your Space</p>
+                        <div class="form-inline mb-0">
+                          <div class="card-footer-title">
+                            <h7 class="card-title">Umair Ali</h7>
+                          </div>
+                          <div class="save-icon ml-auto">
+                            <i class='bi bi-bookmark'></i>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 mt-4">
+                    <div id="rcorner1" class="card">
+                      <img height="176" src="/Assets/Trending-6.jpeg " alt="Card image cap">
+                      <div class="card-body">
+                        <div class="form-inline">
+                          <div class="total-students">
+                            <h7 class="card-title">6700 students</h7>
+                          </div>
+                          <div class="total-minutes ml-auto">
+                            <h7 class="card-title align-text-right">28min</h7>
+                          </div>
+                        </div>
+                        <p class="card-text font-weight-bold">Plates at home:Uplift your Spirit & Your Space</p>
+                        <div class="form-inline mb-0">
+                          <div class="card-footer-title">
+                            <h7 class="card-title">Umair Ali</h7>
+                          </div>
+                          <div class="save-icon ml-auto">
+                            <i class='bi bi-bookmark'></i>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-center mt-4">
+              <div class="btn btn-sm btn-outline-dark ">
+                See All
+              </div>
+            </div>
+
+            <div class="row description mt-4">
+              <div class="desription-header mb-4">
+                <h3 class="font-weight-bold"> Explore Your Creativity</h3>
+              </div>
+
+              <div class="description-body mt-4">
+                <p>Take the next step on your creative journey. With these Skillshare classes, you can explore a range
+                  of
+                  topics, tools, and techniques, from photography and graphic design, to drawing and animation. Whether
+                  you’re looking for art classes for beginners or you’re an experienced professional, you can take your
+                  skills to the next level with online classes in software like Photoshop, Procreate and After Effects,
+                  or
+                  learning handmade techniques in painting, hand lettering, and illustration. Make a film, give your
+                  home
+                  a
+                  makeover, start a freelance business. There’s so much inspiration to explore on Skillshare, and you’ll
+                  get
+                  hands-on experience by completing and sharing your own projects.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div id="site-footer">
+    <footer class="footer mt-4">
+      <div class="container  margin-top">
+        <div class="row white-text">
+          <div class="col-md-3">
+            <div class="company ">
+              <h4 class="font-weight-bold mt-4">Company</h4>
+              <ul class="list-group white-text mt-4">
+                <a class="white-text" href="#">About</a>
+                <a class="white-text mt-2" href="#">Careers</a>
+                <a class="white-text mt-2" href="#">Press</a>
+                <a class="white-text mt-2" href="#" target="_blank">Blog</a>
+                <a class="white-text mt-2" href="#">Affiliates</a>
+                <a class="white-text mt-2" href="#">Partnerships</a></li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="col-md-3">
+            <div class="Community mt-4">
+              <h4 class="font-weight-bold">Community</h4>
+              <ul class="list-group ">
+
+                <a class="white-text mt-3" href="">Team Plans</a>
+                <a class="white-text mt-2" href="">Refer a Friend</a>
+                <a class="white-text mt-2" href="">Limited Memberships </a>
+                <a class="white-text mt-2" href="">Scholarships</a>
+                <a class="white-text mt-2" href="">Free Classes</a>
+                <a class="white-text mt-2" href="">Chrome Courses</a>
+              </ul>
+            </div>
+
+          </div>
+          <div class="col-md-3">
+            <div class="Teaching mt-4">
+              <h4 class="font-weight-bold">Teaching</h4>
+              <ul class="list-group ">
+
+                <a class="white-text mt-3" href="">Become a Teacher</a>
+                <a class="white-text mt-2" href="">Teacher help center</a>
+
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="Mobile">
+              <h4 class="font-weight-bold mt-4">Mobile</h4>
+              <div class="row container d-flex " style="width: 90%;">
+                <div class="template-demo mt-2">
+                  <div>
+                    <button class="btn btn-outline-light btn-icon-text mt-3">
+                      <i class="fa fa-apple  btn-icon-prepend mdi-36px"></i>
+                      <span class="d-inline-block text-left white-text">
+                        <small class="font-weight-dark d-block">Available on the</small> App Store </span>
+                    </button>
+                  </div>
+                  <div>
+                    <button class="btn btn-outline-light btn-icon-text mt-4 p-0">
+                      <a class="btn android-btn w-10 h-10" href="#">
+                        <img width="60px" src="http://www.userlogos.org/files/logos/jumpordie/google_play_04.png">
+                      </a>
+                      <span class="d-inline-block text-left white-text">
+                        <small class="font-weight-dark d-block">Get it on the</small> Google Play </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-line mt-4" style="border-top: 2px solid rgb(15, 230, 97);">
+        </div>
+
+        <div class="form-inline mt-3">
+          <div class="footerbase-tags">
+            <span class="white-text">© Skillshare,</span>
+            <span class="ml-4 white-text">Inc. 2022</span>
+            <a class="ml-4 white-text" href="">Help</a>
+            <a class="ml-4 white-text" href="">Privacy</a>
+            <a class="ml-4 white-text" href="">Terms</a>
+          </div>
+          <div class="footer-social-media ml-auto">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+
+            <a href=""><i class="fab fa-twitter"></i></a>
+
+            <a href=""><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="row base-footer clear mt-4 mb-4">
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div id="mobile-footer">
+    <footer class="footer mt-4">
+      <div class="container">
+        <div class="row white-text ">
+          <div class="col-6 mt-4">
+            <div class="company">
+              <h4 class="ml-3">Company</h4>
+              <ul class="list-group white-text">
+                <a class="white-text m-4" href="#">About</a>
+                <a class="white-text m-4 " href="#">Careers</a>
+                <a class="white-text m-4" href="#">Press</a>
+                <a class="white-text m-4" href="#" target="_blank">Blog</a>
+                <a class="white-text m-4" href="#">Affiliates</a>
+                <a class="white-text m-4" href="#">Partnerships</a></li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="col-6 mt-4">
+            <div class="Community">
+              <h4 class="">Community</h4>
+              <ul class="list-group">
+                <a class="white-text m-3" href="">Team Plans</a>
+                <a class="white-text m-3" href="">Refer a Friend</a>
+                <a class="white-text m-3" href="">Limited Memberships </a>
+                <a class="white-text m-3" href="">Scholarships</a>
+                <a class="white-text m-3" href="">Free Classes</a>
+                <a class="white-text m-3" href="">Chrome Courses</a>
+              </ul>
+            </div>
+
+          </div>
+          <div class="col-6 mt-4">
+            <div class="Teaching ml-3">
+              <h4 class="font-weight-bold">Teaching</h4>
+              <ul class="list-group ">
+
+                <a class="white-text m-4" href="">Become a Teacher</a>
+                <a class="white-text m-4" href="">Teacher help center</a>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row container d-flex ">
+          <div class="col-6 template-demo mt-4">
+            <button class="btn btn-outline-light btn-icon-text p-0">
+              <i class="fa fa-apple btn-icon-prepend mdi-36px"></i>
+              <span class="d-inline-block text-left white-text">
+                <small class="font-weight-dark d-block">Available on the</small> App Store </span>
+            </button>
+          </div>
+
+          <div class="col-6">
+            <button class="btn btn-outline-light btn-icon-text mt-4 p-0">
+              <a class="btn android-btn w-10 h-10" href="#">
+                <img width="60px" src="http://www.userlogos.org/files/logos/jumpordie/google_play_04.png">
+              </a>
+              <span class="d-inline-block text-left white-text">
+                <small class="font-weight-dark d-block">Get it on the</small> Google Play </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="footer-line mt-4" style="border-top: 2px solid rgb(15, 230, 97);">
+        </div>
+
+        <div class="footer-social-media d-flex justify-content-center mt-4">
+          <a class="bg-light social-media-icons" href="">
+            <i class="fab fa-facebook-f" style="margin:11px"></i>
+          </a>
+          <a class="bg-light social-media-icons ml-4 " href="">
+            <i class="fab fa-twitter bg-light  " style="margin:11px">
+            </i></a>
+          <a class="bg-light social-media-icons  ml-4" href="">
+            <i class="fab fa-instagram bg-light" style="margin:11px"></i>
+          </a>
+        </div>
+
+        <div class="form-inline justify-content-center mt-4">
+          <span class="white-text">© Skillshare,</span>
+          <span class="ml-4 white-text">Inc. 2022</span>
+        </div>
+        <div class="form-inline justify-content-center mt-4">
+          <div class="footerbase-tags">
+            <a class="ml-4 white-text" href="">Help</a>
+            <a class="ml-4 white-text" href="">Privacy</a>
+            <a class="ml-4 white-text" href="">Terms</a>
+          </div>
+
+        </div>
+        <div class="row base-footer clear mt-4 mb-4">
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>
